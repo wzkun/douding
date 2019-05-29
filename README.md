@@ -1,7 +1,7 @@
 ## Install
 
 ```
-go get github.com/dearplain/douding
+go get github.com/wzkun/douding
 ```
 
 ## Usage

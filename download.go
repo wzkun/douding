@@ -22,7 +22,7 @@ func main() {
 		fmt.Println("error: no url specified!")
 		return
 	}
-	if strings.Contains(os.Args[1], "www.docin.com") {
+	if strings.Contains(os.Args[1], "docin.com") {
 		downDouding(os.Args[1])
 	} else if strings.Contains(os.Args[1], "wenku.baidu.com") {
 		downWenkuPPT(os.Args[1])
